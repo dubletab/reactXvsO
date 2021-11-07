@@ -100,7 +100,7 @@ class Game extends React.Component {
     if(winner){
         status = 'Победитель: ' + winner;
     } else{
-        status = `Next player: ${this.state.xIsNext ? 'X' : 'O'}`;
+        status = `Следующий игрок: ${this.state.xIsNext ? 'X' : 'O'}`;
     }
       return (
         <div className="game">
